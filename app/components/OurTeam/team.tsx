@@ -67,7 +67,7 @@ const Team = () => {
                 </p>
                 <div className="mt-5 flex justify-center">
                   <Image
-                    src="/Social Icons.svg"
+                    src="/images/Social Icons.svg"
                     alt="Social Icons"
                     width={100}
                     height={24}
