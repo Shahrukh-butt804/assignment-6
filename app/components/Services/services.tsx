@@ -4,50 +4,50 @@ import Image from "next/image";
 const services = () => {
   const courses = [
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Design & Development",
       text: "50+ Courses Available",
     },
 
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Marketing",
       text: "50+ Courses Available",
     },
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Development",
       text: "50+ Courses Available",
     },
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Communication",
       text: "50+ Courses Available",
     },
 
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Digital marketing",
       text: "50+ Courses Available",
     },
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Self Development",
       text: "50+ Courses Available",
     },
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Businesses",
       text: "50+ Courses Available",
     },
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Finance",
       text: "50+ Courses Available",
     },
 
     {
-      image: "/Frame 292.svg",
+      image: "/images/Frame292.svg",
       heading: "Consulting",
       text: "50+ Courses Available",
     },
@@ -72,7 +72,7 @@ const services = () => {
           <div key={index} className="flex w-[450.67px] h-[132px] bg-smokey rounded-md">
             <div className="p-4">
               <Image
-                src={"/Frame 292.svg"}
+                src={"/images/Frame292.svg"}
                 alt="next-image"
                 width={100}
                 height={100}

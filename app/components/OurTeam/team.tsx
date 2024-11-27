@@ -4,32 +4,32 @@ import Image from "next/image";
 const Team = () => {
   const members = [
     {
-      image: "/team1.png",
+      image: "/images/team1.png",
       name: "James nduku",
       post: "Marketing Cordinator",
     },
     {
-      image: "/team2.png",
+      image: "/images/team2.png",
       name: "Joseph munyambu",
       post: "Nursing Assistant",
     },
     {
-      image: "/team3.png",
+      image: "/images/team3.png",
       name: "Joseph Ngumbau",
       post: "Medical Assistant",
     },
     {
-      image: "/team4.png",
+      image: "/images/team4.png",
       name: "Erick Kipkemboi",
       post: " Web Designer",
     },
     {
-      image: "/team5.png",
+      image: "/images/team5.png",
       name: "Stephen Kerubo",
       post: "President of Sales",
     },
     {
-      image: "/team6.png",
+      image: "/images/team6.png",
       name: "John Leboo",
       post: "Dog Trainer",
     },

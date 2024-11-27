@@ -9,7 +9,7 @@ const Header = () => {
 
       <div className="box1 mx-auto flex items-center justify-between w-[1152px] h-[44px]">
       <div className="mr-2"> 
-        <Image src={"/Frame 1.svg"} alt="next-image" width={32.58} height={30.38}/>
+        <Image src={"/images/Frame 1.svg"} alt="next-image" width={32.58} height={30.38}/>
         </div>
         <h1 className="text-[25.07px] leading-[30.34px] font-bold w-[130.6px] h-[29.38px]">Ddsgnr</h1>
 

@@ -15,39 +15,39 @@ const Customer = () => {
         {/* Testimonial 1 */}
         <div className="h-[321.89px] w-[392.67px] border-[1px] border-black flex flex-col justify-between p-4">
           <div>
-            <Image src="/Stars.svg" alt="Stars" width={116} height={18.89} />
+            <Image src="/images/Stars.svg" alt="Stars" width={116} height={18.89} />
           </div>
           <p className="text-sm text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, placeat! Recusandae inventore ducimus ullam, provident dolorum, corporis dolorem tempore nesciunt nemo distinctio eligendi vel dicta placeat modi architecto voluptate voluptatum.
           </p>
           <div className="flex justify-center">
-            <Image src="/james.svg" alt="James" width={254} height={56} />
+            <Image src="/images/james.svg" alt="James" width={254} height={56} />
           </div>
         </div>
 
         {/* Testimonial 2 */}
         <div className="h-[321.89px] w-[392.67px] border-[1px] border-black flex flex-col justify-between p-4">
           <div>
-            <Image src="/Stars.svg" alt="Stars" width={116} height={18.89} />
+            <Image src="/images/Stars.svg" alt="Stars" width={116} height={18.89} />
           </div>
           <p className="text-sm text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, placeat! Recusandae inventore ducimus ullam, provident dolorum, corporis dolorem tempore nesciunt nemo distinctio eligendi vel dicta placeat modi architecto voluptate voluptatum.
           </p>
           <div className="flex justify-center">
-            <Image src="/james.svg" alt="James" width={254} height={56} />
+            <Image src="/images/james.svg" alt="James" width={254} height={56} />
           </div>
         </div>
 
         {/* Testimonial 3 */}
         <div className="h-[321.89px] w-[392.67px] border-[1px] border-black flex flex-col justify-between p-4">
           <div>
-            <Image src="/Stars.svg" alt="Stars" width={116} height={18.89} />
+            <Image src="/images/Stars.svg" alt="Stars" width={116} height={18.89} />
           </div>
           <p className="text-sm text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, placeat! Recusandae inventore ducimus ullam, provident dolorum, corporis dolorem tempore nesciunt nemo distinctio eligendi vel dicta placeat modi architecto voluptate voluptatum.
           </p>
           <div className="flex justify-center">
-            <Image src="/james.svg" alt="James" width={254} height={56} />
+            <Image src="/images/james.svg" alt="James" width={254} height={56} />
           </div>
         </div>
       </div>

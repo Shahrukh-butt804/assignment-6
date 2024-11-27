@@ -25,9 +25,9 @@ const contact = () => {
           <div className="lg:flex lg:items-start lg:gap-8">
             <div className="flex flex-col items-center  md:flex-row justify-center gap-64">
               <div className="col-span-2 sm:col-span-1">
-                <div className="flex mt-[-80px]">
+                <div className="flex mt-[-80px] gap-2">
                   <Image
-                    src={"/Frame 1.svg"}
+                    src={"/images/Frame 1.svg"}
                     alt="next-image"
                     width={32.58}
                     height={30.38}

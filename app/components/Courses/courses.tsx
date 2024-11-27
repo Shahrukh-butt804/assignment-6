@@ -4,7 +4,7 @@ import Image from "next/image";
 const courses = () => {
   const courses = [
     {
-      image: "/card1.png",
+      image: "/images/card1.png",
       about: "design",
       title: "UI/UX Design 201",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
@@ -12,35 +12,35 @@ const courses = () => {
     },
 
     {
-      image: "/card2.png",
+      image: "/images/card2.png",
       about: "programming",
       title: "Introduction to python",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
       price: "$400",
     },
     {
-      image: "/card3.png",
+      image: "/images/card3.png",
       about: "business",
       title: "Data Analysis for Beginners",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
       price: "$400",
     },
     {
-      image: "/card4.png",
+      image: "/images/card4.png",
       about: "Art",
       title: "Art Specialization",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
       price: "$400",
     },
     {
-      image: "/card5.png",
+      image: "/images/card5.png",
       about: "Law",
       title: "Rule of Law",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
       price: "$400",
     },
     {
-      image: "/card6.png",
+      image: "/images/card6.png",
       about: "Tech",
       title: "Introduction To Webflow",
       text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quibusdam totam ?",
