@@ -82,7 +82,7 @@ const courses = () => {
                 <p>{course.about}</p>
                 <div>
                   <Image
-                    src={"/images/star.png"}
+                    src={"/images/Star.png"}
                     alt="next-image"
                     width={50}
                     height={50}
