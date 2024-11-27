@@ -26,7 +26,7 @@ export default function Home() {
       <div>
       <Image
         className=""
-        src="/heroImage.jpg"
+        src="/images/heroImage.jpg"
         width={650}
         height={900}
         alt="Picture of the author"
