@@ -69,7 +69,7 @@ const services = () => {
       {/* course Section */}
       <div className="h-auto px-6 py-4 space-y-6 flex flex-wrap justify-center items-center gap-10">
         {courses.map((course, index) => (
-          <div className="flex w-[450.67px] h-[132px] bg-smokey rounded-md">
+          <div key={index} className="flex w-[450.67px] h-[132px] bg-smokey rounded-md">
             <div className="p-4">
               <Image
                 src={"/Frame 292.svg"}

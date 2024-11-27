@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { title } from "process";
 
 const courses = () => {
   const courses = [
