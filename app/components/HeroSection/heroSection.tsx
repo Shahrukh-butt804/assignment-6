@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex justify-center gap-20">
+    <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-20">
 
 
-      <div className="mt-[141px]">
+      <div className="mt-24 md:mt-[141px]">
 
-        <div className="flex flex-col gap-[24px] w-[500px]">
+        <div className="flex flex-col gap-[24px] w-[380px] md:w-[500px]">
 
-        <h1 className="text-[56px] font-bold leading-[1.2]">Learn new skills online with ease</h1>
+        <h1 className="text-[40px]  md:text-[56px] font-bold leading-[1.2]">Learn new skills online with ease</h1>
           <p className="text-[18px] line[27px] font-normal">
             Discover a wide range of courses covering a variety of subjects,
             taught by expert instructors.

@@ -57,8 +57,8 @@ const services = () => {
     <div className="h-auto">
       <div className=" md:h-auto flex flex-col justify-center items-center gap-5 my-10 ">
         <div>
-          <h1 className="text-[48px] font-bold tracking-tighter">Explore Courses By Category</h1>
-          <p className="selt-start">
+          <h1 className="text-[32px] md:text-[48px] font-bold md:tracking-tighter text-center">Explore Courses By Category</h1>
+          <p className="text-center md:selt-start px-8 md:px-0 mt-3 md:mt-0">
             {" "}
             Discover a wide range of courses covering a variety of subjects,
             taught by expert instructors.

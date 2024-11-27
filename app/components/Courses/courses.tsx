@@ -50,7 +50,7 @@ const courses = () => {
 
   return (
     <>
-      <div className=" md:h-auto flex flex-col justify-center items-center gap-5 my-10">
+      <div className="h-auto flex flex-col justify-center items-center gap-5 my-10">
         <h1 className="text-[56px] font-bold">Courses</h1>
         <p>The ultimate Guide to learning</p>
       </div>
@@ -61,7 +61,7 @@ const courses = () => {
         <h1>Best price</h1>
       </div>
 
-      <div className="h-full md:h-[1742px] flex gap-[32px] justify-center flex-wrap p-4">
+      <div className="h-auto flex gap-[32px] justify-center flex-wrap p-4">
         {courses.map((course, index) => (
           <div
             key={index}

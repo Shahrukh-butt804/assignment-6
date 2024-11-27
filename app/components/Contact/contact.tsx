@@ -4,28 +4,39 @@ import Image from "next/image";
 const contact = () => {
   return (
     <>
-      <div className="flex justify-between items-center px-32">
-        <div>
+      <div className="flex flex-col md:flex-row  md:justify-between items-center md:px-32">
+        <div className="w-full flex flex-col justify-center items-center md:items-start my-5">
           <h2 className="font-semibold"> Subscribe to our newsletter</h2>
-          <p className="text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="text-sm">
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
         </div>
+
         <div>
 
-          <div className="flex gap-5 mb-3">
+          <div className="flex flex-col w-screen md:w-auto px-5 md:px-0  md:flex-row  gap-5 mb-3">
             {" "}
-            <input className="px-6 py-2  outline-1 outline" type="text" placeholder="Enter Your email" />
-            <button className="px-6 py-2  outline-1 outline" >submit</button>
+            <input
+              className="px-6 py-2  outline-1 outline"
+              type="text"
+              placeholder="Enter Your email"
+            />
+            <button className="px-24  md:px-6 py-2  outline-1 outline">submit</button>
           </div>
-          <p className="text-xs">By subscribing you agree to with our Privacy Policy</p>
+
+          <p className="text-xs px-5 md:px-0">
+            By subscribing you agree to with our Privacy Policy
+          </p>
         </div>
       </div>
 
       <footer className="bg-white">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="lg:flex lg:items-start lg:gap-8">
-            <div className="flex flex-col items-center  md:flex-row justify-center gap-64">
+            <div className="flex flex-col items-center  md:flex-row justify-center gap-10 md:gap-64">
               <div className="col-span-2 sm:col-span-1">
-                <div className="flex mt-[-80px] gap-2">
+                <div className="flex mt-[-30px] md:mt-[-80px] gap-2">
                   <Image
                     src={"/images/Frame 1.svg"}
                     alt="next-image"
@@ -38,7 +49,7 @@ const contact = () => {
                 </div>
               </div>
 
-              <div className="col-span-2 sm:col-span-1">
+              <div className="col-span-2 sm:col-span-1 text-center md:text-start">
                 <p className="font-semibold text-gray-900">Courses</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
@@ -92,7 +103,7 @@ const contact = () => {
                 </ul>
               </div>
 
-              <div className="col-span-2 sm:col-span-1">
+              <div className="col-span-2 sm:col-span-1 text-center md:text-start">
                 <p className="font-semibold text-gray-900">Resources</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
@@ -147,7 +158,7 @@ const contact = () => {
                 </ul>
               </div>
 
-              <div className="col-span-2 sm:col-span-1">
+              <div className="col-span-2 sm:col-span-1 text-center md:text-start">
                 <p className="font-semibold text-gray-900">About Us</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
@@ -205,13 +216,23 @@ const contact = () => {
           <div className="container h-[1px] bg-black mt-10"></div>
 
           <div className=" border-t border-gray-100 pt-8">
-            <div className="sm:flex sm:justify-between">
+
+            <div className="sm:flex sm:justify-between text-center">
               <p className="text-xs text-gray-500">
-                &copy; 2022. Ddsgnr. All rights reserved. <span className="border-[1px] border-b-black w-fit ">Privacy policy</span>  <span className="border-[1px] border-b-black w-fit ">Terms of services</span>{" "}
-                <span className="border-[1px] border-b-black w-fit ">Cookie Settings</span>{" "}
+                &copy; 2022. Ddsgnr. All rights reserved.{" "}
+                <hr className="md:hidden"/>
+                <span className="border-[1px] border-b-black w-fit ">
+                   Privacy policy
+                </span>{" "}
+                <span className="border-[1px] border-b-black w-fit ">
+                  Terms of services
+                </span>{" "}
+                <span className="border-[1px] border-b-black w-fit ">
+                  Cookie Settings
+                </span>{" "}
               </p>
 
-              <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
+              <ul className="col-span-2 mt-5 md:mt-0 flex justify-center md:justify-start gap-6 lg:col-span-5 lg:justify-end">
                 <li>
                   <a
                     href="#"
@@ -300,6 +321,8 @@ const contact = () => {
                   </a>
                 </li>
               </ul>
+
+
             </div>
           </div>
         </div>

@@ -5,9 +5,9 @@ const Customer = () => {
   return (
     <div className=" md:h-[830.89px] bg-white">
  
-      <div className=" md:h-auto flex flex-col justify-center items-start px-32 gap-2 my-10">
-        <h1 className="text-[56px] font-bold">Customer Testimonials</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div className=" md:h-auto flex flex-col justify-start md:justify-center items-start md:items-center px-10 md:px-32 gap-2 my-10">
+        <h1 className="text-[32px] md:text-[56px] font-bold w-[400px] md:w-auto">What out student say</h1>
+        <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
 
       {/* Testimonial Boxes in a Single Row */}
